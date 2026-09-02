@@ -37,6 +37,7 @@ echo '{
   "ExtensionInstallForcelist": null,
   "ExtensionSettings": null,
   "PasswordManagerEnabled": "true",
+  "SystemFeaturesDisableList": [],
   "TaskManagerEndProcessEnabled": "true",
   "UptimeLimit": "null",
   "SystemTerminalSshAllowed": "true",
