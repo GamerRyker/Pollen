@@ -94,8 +94,8 @@ echo '{"SecondaryGoogleAccountSigninAllowed": true,
   "NetworkPredictionOptions": 0,
   "AllowedDomainsForApps": "",
   "DeviceUserAllowlist": "",
-  "DeviceAllowNewUser": 3
-  "SystemFeaturesDisableList": []
+  "DeviceAllowNewUser": 3,
+  "SystemFeaturesDisableList": [],
 }' > /etc/opt/chrome/policies/managed/pollen.json
 
 echo ""
