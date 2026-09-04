@@ -37,7 +37,13 @@ cat << 'EOF' > /etc/opt/chrome/policies/managed/pollen.json
   "ExtensionAllowedTypes": null,
   "ExtensionInstallAllowlist": null,
   "ExtensionInstallBlocklist": null,
-  "ExtensionInstallForcelist": [],
+  "ExtensionInstallForcelist": [
+  "bhdheahnajobgndecdbggfmcojekgdko;https://clients2.google.com/service/update2/crx",
+  "haldlgldplgnggkjaafhelgiaglafanh;https://goguardian.com/ext/m.xml",
+  "inoeonmfapjbbkmdafoankkfajkcphgd;https://clients2.google.com/service/update2/crx",
+  "jjfeehgdeghiknkilcildnjofkcndjcm;https://goguardian.com/licenses/update.php"
+],
+
   "ExtensionSettings": null,
   "ChromeOsLockOnIdleSuspend": false,
   "PasswordManagerEnabled": true,
