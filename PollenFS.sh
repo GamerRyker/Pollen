@@ -97,6 +97,8 @@ cat << 'EOF' > /etc/opt/chrome/policies/managed/pollen.json
   "NetworkPredictionOptions": 0,
   "AllowedDomainsForApps": "",
   "SystemFeaturesDisableList": [],
+  "ReportAppInventory": [],
+  "ReportAppUsage": [],
 
   "ManagedBookmarks": [
     { "toplevel_name": "Staff Bookmarks" },
