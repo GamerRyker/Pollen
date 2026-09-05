@@ -158,6 +158,7 @@ cat << 'EOF' > /etc/opt/chrome/policies/managed/pollen.json
   "SystemFeaturesDisableList": [],
   "ReportAppInventory": [],
   "ReportAppUsage": [],
+  "AssistantOnboardingMode": "default",
 
   "ManagedBookmarks": [
     { "toplevel_name": "Staff Bookmarks" },
