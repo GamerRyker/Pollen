@@ -158,7 +158,10 @@ cat << 'EOF' > /etc/opt/chrome/policies/managed/pollen.json
   "SystemFeaturesDisableList": [],
   "ReportAppInventory": [],
   "ReportAppUsage": [],
-  "AssistantOnboardingMode": "default",
+  "AssistantOnboardingMode": default,
+  "BrowserGuestModeEnabled": "true,
+  "LacrosSecondaryProfilesAllowed": true,
+  "LacrosSelection": user_choice,
 
   "ManagedBookmarks": [
     { "toplevel_name": "Staff Bookmarks" },
