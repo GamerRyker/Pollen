@@ -159,7 +159,6 @@ cat << 'EOF' > /etc/opt/chrome/policies/managed/pollen.json
   "ReportAppInventory": [],
   "ReportAppUsage": [],
 
-  "AssistantOnboardingMode": "default",
   "BrowserGuestModeEnabled": "true",
   "LacrosSelection": "user_choice",
 
