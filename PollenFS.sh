@@ -18,9 +18,9 @@ echo "May Ultrablue Rest in Peace, o7"
 
 sleep 1
 
-mkdir -p /usr/local/share/policy-test-tool/policies
+mkdir -p /etc/opt/chrome/policies/managed
 
-cat << 'EOF' > /usr/local/share/policy-test-tool/policies/pollen.json
+cat << 'EOF' > /etc/opt/chrome/policies/managed/pollen.json
 {
   "SecondaryGoogleAccountSigninAllowed": true,
   "URLBlocklist": [],
